@@ -1,20 +1,36 @@
-<nav class="bg-gray-800">
-  <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-    <div class="relative flex items-center justify-between h-16">
-      <div class="absolute inset-y-0 left-0 flex items-center">
-        <a href="/" class="flex-shrink-0">
-            <img class="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
+
+
+<nav class="relative flex flex-wrap items-center justify-between px-2 py-2 bg-gray-800 mb-3">
+  <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto  px-4 lg:static lg:block lg:justify-start">
+        <a class="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white" href="#pablo">
+            <img class="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow"> 
         </a>
+            <%# <span class="font-bold text-white px-3">Chad </span> %>
+        <button class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none" type="button">
+            <span class="block relative w-6 h-px rounded-sm bg-white"></span>
+            <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+            <span class="block relative w-6 h-px rounded-sm bg-white mt-1"></span>
+        </button>
       </div>
-      <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-        <div class="hidden sm:block sm:ml-6">
-          <div class="flex space-x-4">
-            <a href="/about" class="px-3 py-2 rounded-md text-sm font-medium text-white hover:text-gray-300 focus:outline-none focus:text-gray-300">About Me</a>
-            <a href="/skills" class="px-3 py-2 rounded-md text-sm font-medium text-white hover:text-gray-300 focus:outline-none focus:text-gray-300">Skills</a>
-            <a href="/projects" class="px-3 py-2 rounded-md text-sm font-medium text-white hover:text-gray-300 focus:outline-none focus:text-gray-300">Projects</a>
-          </div>
+        <div class="lg:flex flex-grow items-center" id="example-navbar-warning">
+            <ul class="flex flex-col lg:flex-row list-none ml-auto">
+                <li class="nav-item">
+                    <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="/">
+                    About Me
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="/">
+                    Skills
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href="/">
+                    Projects
+                    </a>
+                </li>
+            </ul>
         </div>
-      </div>
-    </div>
   </div>
 </nav>
